@@ -1,6 +1,6 @@
 
 [project]
-name = "openfea"
+name = "hyperfem"
 version = "0.0.1"
 description = "A finite element analysis software"
 readme = "README.md"
@@ -40,19 +40,13 @@ classifiers = [
 dependencies = [
   "numpy",
   "scipy",
-  "matplotlib",
-  "felupe",
-  "pyvista",
-  "gmsh",
-  "pygmsh"
-  "pyqt5",
-  "pyvistaqt"
+  "hyperjet"
 ]
 
 [project.urls]
-homepage = "https://openfea.readthedocs.io/en/latest"
-code = "https://github.com/ZAARAOUI999/openfea"
-issues = "https://github.com/ZAARAOUI999/feplot/issues"
+homepage = "https://hyperfem.readthedocs.io/en/latest"
+code = "https://github.com/ZAARAOUI999/hyperfem"
+issues = "https://github.com/ZAARAOUI999/hyperfem/issues"
 
 [build-system]
 requires = ["setuptools>=42", "wheel"]
