@@ -3,4 +3,6 @@
  </p>
 
 <h1 align="center">HyperFEM</h1>
-A package for material testing, material modeling and finite element analysis of elastomers.
+<p align="center">
+ A package for material testing, material modeling and finite element analysis of elastomers.
+ </p>
