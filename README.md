@@ -4,5 +4,5 @@
 
 <h1 align="center">HyperFEM <br>هايپرفام</h1>
 <p align="center">
- A package for elastomeric materials testing, modeling and calibration.<br>.حزمة لإختبار المواد المرنة والنمذجة والمعايرة
+ A package for elastomeric materials modeling and calibration.<br>.حزمة لنمذجة ومعايرة المواد المرنة 
  </p>
