@@ -31,6 +31,9 @@ classifiers = [
   "Topic :: Utilities"
 ]
 
+
+dynamic = ["version"] # Version is read from hyperfem/__init__.py
+
 dependencies = [
   "numpy",
   "scipy",
@@ -41,6 +44,9 @@ dependencies = [
 homepage = "https://hyperfem.readthedocs.io/en/latest"
 code = "https://github.com/ZAARAOUI999/hyperfem"
 issues = "https://github.com/ZAARAOUI999/hyperfem/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "hyperfem.__version__"}
 
 [build-system]
 requires = ["setuptools>=42", "wheel"]
